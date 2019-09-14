@@ -4,7 +4,14 @@ main styles
 
 ********************************************/
 
-body {
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+html, body {
 
   font-family: 'Open sans', sans-serif;
   background: url('../img/Island.png');
@@ -12,20 +19,14 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100%;
-  padding: 0px;
-  margin: 0px auto;
+  height: 100%;
 
-  /***************************
+}
 
-  Creates sticky footer
+#container {
 
-  ****************************/
-
-  flex-grow: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
+  overflow: auto;
+  min-height: 100%;
 
 }
 
@@ -35,56 +36,73 @@ body {
   padding: 0px;
   position: center;
   line-height: 1.5em;
-  width: 100%;
   max-width: 980px;
   min-width: 250px;
-
-  flex-grow: 1;
-
-}
-
-/*************************
-    Top Navigation
-**************************/
-
-.topnav {
-  overflow: auto;
-  background: url('../pictures/banner.png');
-  max-width: 100%;
-  background-size: cover;
+  padding-bottom: 100px;
 
 }
 
-.topnav a {
-  float: left;
-  color: #7fffd4;
-  position: top;
-  width:120px;
+/****************************
+
+Header styles
+
+*****************************/
+
+#topNavHeading {
+
+  text-align: left;
+  font-size: 70px;
+  color: #ADD8E6;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-weight: 800px;
   padding: 15px 10px;
-  text-decoration: none;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-  font-size: 30px;
+
 }
 
-.topnav a:hover {
-  color: white;
-  position: top;
-}
+header nav {
 
-.topnav a.active {
-  color: white;
-  position: top;
-}
-
-
-
-footer {
-
-  clear left;
-  font-size: 22px;
   text-align: center;
-  color: #7fffd4;
-  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-  margin-top: 100px;
+  padding: 10px 0;
+  margin: 20px 0 0;
+  position: top;
+
+}
+
+header nav li {
+
+  display: inline-block;
+
+
+}
+
+header nav a {
+
+  color: #ADD8E6;
+  font-weight: 800;
+  padding: 15px 10px;
+  font-size: 30px;
+
+
+
+}
+
+
+/****************************
+
+footer styles
+
+*****************************/
+#footer {
+
+  text-align: center;
+  position: relative;
+  height: 100px;
+  color: #ADD8E6;
+  margin-top: -100px;
+  clear: both;
+  font-size: 22px;
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+
+
 
 }
