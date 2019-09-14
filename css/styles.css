@@ -7,10 +7,84 @@ main styles
 body {
 
   font-family: 'Open sans', sans-serif;
-  background: url()
+  background: url('../img/Island.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 0px;
+  margin: 0px auto;
+
+  /***************************
+
+  Creates sticky footer
+
+  ****************************/
+
+  flex-grow: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+}
+
+#wrapper {
+
+  margin: 0px auto;
+  padding: 0px;
+  position: center;
+  line-height: 1.5em;
+  width: 100%;
+  max-width: 980px;
+  min-width: 250px;
+
+  flex-grow: 1;
+
+}
+
+/*************************
+    Top Navigation
+**************************/
+
+.topnav {
+  overflow: auto;
+  background: url('../pictures/banner.png');
+  max-width: 100%;
+  background-size: cover;
+
+}
+
+.topnav a {
+  float: left;
+  color: #7fffd4;
+  position: top;
+  width:120px;
+  padding: 15px 10px;
+  text-decoration: none;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  color: white;
+  position: top;
+}
+
+.topnav a.active {
+  color: white;
+  position: top;
+}
 
 
 
+footer {
 
+  clear left;
+  font-size: 22px;
+  text-align: center;
+  color: #7fffd4;
+  text-shadow:0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+  margin-top: 100px;
 
 }
