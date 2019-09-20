@@ -11,6 +11,16 @@ main styles
 
 }
 
+.w3-bar-block .w3-bar-item {
+  padding:20px
+}
+
+/* Navigation Bar */
+
+#w3-top{
+  background: transparent;
+}
+
 html, body {
 
   font-family: 'Open sans', sans-serif;
