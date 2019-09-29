@@ -1,117 +1,75 @@
-/*******************************************
+/*****************************
 
 main styles
+body and primary content.
+takes out margin from
+header and styles section in
+the middle.
 
-********************************************/
+******************************/
 
-* {
+body {
 
-  margin: 0;
-  padding: 0;
-
-}
-
-.w3-bar-block .w3-bar-item {
-  padding:20px
-}
-
-/* Navigation Bar */
-
-#w3-top{
-  background: transparent;
-}
-
-html, body {
-
-  font-family: 'Open sans', sans-serif;
-  background: url('../img/Island.png');
+  color: #878787;
+  margin: 0px;
+  background: url(../img/Restaurant.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100%;
+
 
 }
 
-#container {
-
-  overflow: auto;
-  min-height: 100%;
-
-}
-
-#wrapper {
+#primary-content {
 
   margin: 0px auto;
   padding: 0px;
   position: center;
-  line-height: 1.5em;
   max-width: 980px;
   min-width: 250px;
-  padding-bottom: 100px;
 
 }
 
-/****************************
+/******************************
 
 Header styles
 
-*****************************/
+********************************/
 
-#topNavHeading {
+header {
 
-  text-align: left;
+  background: url(../img/food.png);
+
+}
+
+h1 {
+
+  font-size: 90px;
+  color: white;
+  text-align: center;
+
+}
+
+h2 {
+
   font-size: 70px;
-  color: #ADD8E6;
-  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-  font-weight: 800px;
-  padding: 15px 10px;
-
-}
-
-header nav {
-
+  color: white;
   text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
-  position: top;
 
 }
 
-header nav li {
+/***********************************
 
-  display: inline-block;
+content styles
 
+************************************/
 
-}
+h3 {
 
-header nav a {
-
-  color: #ADD8E6;
-  font-weight: 800;
-  padding: 15px 10px;
-  font-size: 30px;
-
-
-
-}
-
-
-/****************************
-
-footer styles
-
-*****************************/
-#footer {
-
+  font-size: 50px;
+  color: orange;
   text-align: center;
-  position: relative;
-  height: 100px;
-  color: #ADD8E6;
-  margin-top: -100px;
-  clear: both;
-  font-size: 22px;
-  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
 
 
 
